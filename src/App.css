@@ -63,7 +63,7 @@
 
 #heroimage{
   height: 700px;
-  width: 2000px;
+  width: 1999px;
 }
 
 #herocontainer{
@@ -111,4 +111,11 @@
   top: 0;
   height: 700px;
   width: 600px
+}
+
+#menu{
+  height: 700px;
+  width: 900px;
+  background-color: #61dafb;
+
 }

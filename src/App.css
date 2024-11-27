@@ -62,14 +62,53 @@
 }
 
 #heroimage{
-  height: 400px;
-  width: 1000px;
+  height: 700px;
+  width: 2000px;
 }
 
-#herocomponent{
-  position: absolute;
-  top: 500px;
-  background-color: blue;
+#herocontainer{
+  position: relative;
+  top: 241px;
+  background-color: rgb(8, 8, 8);
   height: 500px;
-  width: 1000px;
+  width: 2000px;
+}
+
+#basicinfo{
+  position: relative;
+  top: 441px;
+  height: 600px;
+  width: 2000px;
+  background-color: rgb(252, 249, 249);
+  color: black;
+}
+
+#pizzaimage {
+  height: 700px;
+  width: 2000px;
+}
+
+#piccomp {
+  position: relative;
+  top: 440px;
+  height: 400px;
+  width: 2000px;
+  background-color: rgb(253, 252, 252);
+  color: rgb(255, 253, 253);
+
+}
+
+#inside{
+  position: absolute;
+  left: 100px;
+  height: 600px;
+  width: 600px
+}
+
+#outside{
+  position: absolute;
+  right: 100px;
+  top: 0;
+  height: 700px;
+  width: 600px
 }

@@ -21,9 +21,9 @@ function NavComp() {
           <Container>
             <Navbar.Brand><img id="logo" src="Freshlogo.png" alt="logo"></img></Navbar.Brand>
             <div id="links">
-            <Link to="/home">Home</Link>
-            <Link to="/menu">Menu</Link>
-            <Link to="/about">location</Link>
+            <Link id="a" to="/">Home</Link>
+            <Link id="a" to="/menu">Menu</Link>
+            <Link id="a" to="/about">Location</Link>
             </div>
               {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 {/* <Navbar.Collapse id="basic-navbar-nav"> */}

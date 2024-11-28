@@ -58,7 +58,12 @@
 #links{
   position: fixed;
   top: 200px;
-  left: 770px;
+  left: 800px;
+}
+
+#a{
+  margin-left: 10px;
+  color: black;
 }
 
 #heroimage{
@@ -114,8 +119,24 @@
 }
 
 #menu{
-  height: 700px;
-  width: 900px;
-  background-color: #61dafb;
+  height: 900px;
+  width: 2000px;
+  background-color: #f6f9fa;
 
+}
+
+#extrainfo{
+  position: relative;
+  top: 641px;
+  background-color: rgb(255, 253, 253);
+  height: 500px;
+  width: 2000px;
+  color: black;
+}
+
+#cheers{
+  position: absolute;
+  left: 600px;
+  width: 800px;
+  height: 600px;
 }

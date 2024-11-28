@@ -32,8 +32,9 @@ function App() {
       <NavComp></NavComp>
       <Routes>
           {/* <Route path="/" element={<Hero />} /> */}
-          <Route path="/about" element={<BasicInfo />} />
+          <Route path="/location" element={<BasicInfo />} />
           <Route path="/menu" element={<Menu menuItems={menuItems}/>} />
+          <Route path="/about" element={<ExtraInfo />} />
       </Routes>
      
       <Hero></Hero>

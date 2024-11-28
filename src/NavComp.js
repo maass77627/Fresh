@@ -23,7 +23,8 @@ function NavComp() {
             <div id="links">
             <Link id="a" to="/">Home</Link>
             <Link id="a" to="/menu">Menu</Link>
-            <Link id="a" to="/about">Location</Link>
+            <Link id="a" to="/location">Location</Link>
+            <Link id="a" to="/about">About</Link>
             </div>
               {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 {/* <Navbar.Collapse id="basic-navbar-nav"> */}

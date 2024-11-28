@@ -1,6 +1,7 @@
+import Food from "./Food"
 
-
-function Menu() {
+function Menu({menuItems}) {
+    console.log(menuItems)
 
 
 
@@ -8,6 +9,7 @@ function Menu() {
         <div id="menu">
             <h1>Menu</h1>
             <p>This is all the food</p>
+            {menuItems.map((item) => <Food item={item}></Food>)}
 
         </div>
     )

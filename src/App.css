@@ -42,8 +42,9 @@
 #nav{
   position: fixed;
   width: 2000px;
-  height: 250px;
+  height: 245px;
   text-align: center;
+  z-index: 1;
 
 }
 
@@ -80,12 +81,19 @@
 }
 
 #basicinfo{
+  /* font-size: 14px; */
   position: relative;
   top: 441px;
   height: 600px;
   width: 2000px;
   background-color: rgb(252, 249, 249);
   color: black;
+}
+
+#loc{
+  padding-top: 20px;
+  font-size: 20px;
+  /* top: 200px; */
 }
 
 #pizzaimage {
@@ -119,9 +127,12 @@
 }
 
 #menu{
+   position: fixed;
+  margin-top: 240px;
   height: 900px;
   width: 2000px;
   background-color: #f6f9fa;
+  z-index: 1;
 
 }
 
@@ -136,7 +147,43 @@
 
 #cheers{
   position: absolute;
-  left: 600px;
+  top: 0px;
+  left: 530px;
   width: 800px;
-  height: 600px;
+  height: 700px;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0px;
+  /* top: 600px; */
+  height: 110px;
+  width: 2000px;
+  background-color: rgb(102, 167, 18);
+  color: black;
+
+}
+
+#about{
+  position: relative;
+  left: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+#party{
+ position: relative;
+  height: 300px;
+  width: 300px;
+
+
+}
+
+#menuitem{
+  float: right;
+    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border: black;
 }

@@ -7,21 +7,22 @@ import BasicInfo from "./BasicInfo.js"
 import PicComp from "./PicComp.js"
 import Menu from "./Menu.js"
 import ExtraInfo from "./ExtraInfo.js"
+import Footer from "./Footer.js"
 import { useEffect, useState } from "react";
 import { Routes, Route } from 'react-router-dom';
 // import { responsivePropType } from 'react-bootstrap/esm/createUtilityClasses.js';
 
 function App() {
 
-  const [menuItem, setMenuItem] = useState("")
+  const [menuItems, setMenuItems] = useState("")
 
   useEffect(() => {
       fetch("http://localhost:3006/food")
       .then((response) => response.json())
       .then((json) => { 
-        setMenuItem(json)
+        setMenuItems(json)
         console.log(json)})
-  }, [menuItem]) 
+  }, []) 
 
 
 
@@ -32,17 +33,16 @@ function App() {
       <Routes>
           {/* <Route path="/" element={<Hero />} /> */}
           <Route path="/about" element={<BasicInfo />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/menu" element={<Menu menuItems={menuItems}/>} />
       </Routes>
      
       <Hero></Hero>
       <BasicInfo></BasicInfo>
       <PicComp></PicComp>
       <ExtraInfo></ExtraInfo>
+      <Footer></Footer>
 
       <header className="App-header">
-        {/* "hellooooo" */}
-        {/* <button className='btn btn-warning'>hi</button> */}
       </header> 
       
     </div>

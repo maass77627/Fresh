@@ -10,7 +10,7 @@ function BasicInfo() {
             <img id="inside" src="freshinside.jpg" alt="inside"></img>
             <h1>Location</h1>
             
-            <p>
+            <p id="loc">
                 West Ave.<br></br>
                 Austin, TX 78765<br></br>
                 Contact: 512-555-0976

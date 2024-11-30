@@ -75,7 +75,7 @@
 #herocontainer{
   position: relative;
   top: 241px;
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(252, 247, 247);
   height: 500px;
   width: 2000px;
 }
@@ -83,10 +83,20 @@
 #basicinfo{
   /* font-size: 14px; */
   position: relative;
-  top: 441px;
+  top: 441px; 
   height: 600px;
   width: 2000px;
-  background-color: rgb(252, 249, 249);
+  background-color: rgb(247, 247, 250);
+  color: black;
+}
+
+#routebasicinfo{
+  /* font-size: 14px; */
+  position: relative;
+  top: 241px; 
+  height: 600px;
+  width: 2000px;
+  background-color: rgb(249, 248, 252);
   color: black;
 }
 
@@ -106,7 +116,7 @@
   top: 440px;
   height: 400px;
   width: 2000px;
-  background-color: rgb(253, 252, 252);
+  background-color: rgb(183, 212, 16);
   color: rgb(255, 253, 253);
 
 }
@@ -140,8 +150,17 @@
 #extrainfo{
   position: relative;
   top: 641px;
-  background-color: rgb(255, 253, 253);
-  height: 500px;
+  background-color: rgb(248, 250, 248);
+  height: 680px;
+  width: 2000px;
+  color: black;
+}
+
+#routeextrainfo{
+  position: relative;
+  top: 241px;
+  background-color: rgb(248, 252, 249);
+  height: 680px;
   width: 2000px;
   color: black;
 }
@@ -166,7 +185,9 @@
 }
 
 #about{
+  font-size: 18px;
   position: absolute;
+  top: 70px;
   left: 100px;
   height: 300px;
   width: 300px;
@@ -174,6 +195,7 @@
 
 #party{
  position: absolute;
+ top: 70px;
  left: 1500px;
   height: 300px;
   width: 300px;
@@ -183,6 +205,7 @@
 
 #menuitem{
     position: relative;
+    top: 100px;
     left: 25px;
     
     float: left;
@@ -192,13 +215,9 @@
     height: 150px;
     width: 600px;
     background-color: rgb(246, 250, 245);
-    /* border-width: 5px;
-    border-style: dotted;
-    border: black; */
 }
 
 #foodimg {
-  /* position: absolute; */
   border-radius: 20px;
   height: 150px;
   width: 200px;
@@ -230,4 +249,40 @@
 #menutitle{
   position: fixed;
   left: 860px
+}
+
+#location{
+position: fixed;
+left: 200px;
+/* top: 10px; */
+}
+
+#locationtit{
+  position: fixed;
+  left: 100px;
+  }
+
+#hours{
+  /* margin-right: 10px; */
+  position: fixed;
+  left: 700px;
+  /* top: 100px; */
+
+}
+#hourstit{
+  position: fixed;
+  left: 600px;
+
+}
+
+#web{
+  position: fixed;
+  left: 1500px;
+
+}
+
+#webtit{
+  position: fixed;
+  left: 1400px;
+
 }

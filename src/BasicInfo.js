@@ -1,12 +1,16 @@
-
+import { useLocation } from "react-router-dom";
 
 function BasicInfo() {
+
+    
+        let location = useLocation()
+    
 
 
     
 
     return (
-        <div id="basicinfo">
+        <div id = {location.pathname === "/location" ? "routebasicinfo" : "basicinfo"}>
             <img id="inside" src="freshinside.jpg" alt="inside"></img>
             <h1>Location</h1>
             

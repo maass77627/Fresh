@@ -44,6 +44,7 @@ function App() {
       <Footer></Footer>
 
       <header className="App-header">
+        <p>this is where the header is</p>
       </header> 
       
     </div>

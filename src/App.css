@@ -40,6 +40,7 @@
 }
 
 #nav{
+  margin: auto;
   position: fixed;
   width: 2000px;
   height: 245px;
@@ -84,6 +85,8 @@
   /* font-size: 14px; */
   position: relative;
   top: 441px; 
+  
+  /* margin: auto; */
   height: 600px;
   width: 2000px;
   background-color: rgb(247, 247, 250);
@@ -137,9 +140,10 @@
 }
 
 #menu{
-   position: fixed;
+   position: absolute;
   margin-top: 240px;
-  height: 900px;
+  /* margin: auto; */
+  height: 2000px;
   width: 2000px;
   background-color: white;
   /* background-color: #44b129; */
@@ -150,6 +154,7 @@
 #extrainfo{
   position: relative;
   top: 641px;
+  margin: auto;
   background-color: rgb(248, 250, 248);
   height: 680px;
   width: 2000px;
@@ -220,18 +225,22 @@
 
 #wine{
   position: relative;
-  top: 500px;
-  left: 25px;
-  
   float: left;
+  top: 80px;
+  left: 25px;
   margin-left: 25px;
-  margin-top: 50px;
+  margin-top: 50px; 
   border-radius: 10px;
   height: 150px;
   width: 600px;
-  background-color: rgb(246, 250, 245);
+  background-color: rgb(51, 122, 33);
 }
-
+#wineimg {
+  border-radius: 20px;
+  height: 150px;
+  width: 200px;
+  float: right;
+}
 #foodimg {
   border-radius: 20px;
   height: 150px;
@@ -262,7 +271,7 @@
 }
 
 #menutitle{
-  position: fixed;
+  position: absolute;
   left: 860px
 }
 

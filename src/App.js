@@ -15,6 +15,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
 
   const [menuItems, setMenuItems] = useState("")
+  const [wines, setWines] = useState("")
 
   useEffect(() => {
       fetch("http://localhost:3006/food")
@@ -23,6 +24,14 @@ function App() {
         setMenuItems(json)
         console.log(json)})
   }, []) 
+
+  useEffect(() => {
+    fetch("http://localhost:3006/wine")
+    .then((response) => response.json())
+    .then((json) => { 
+      setWines(json)
+      console.log(json)})
+}, []) 
 
 
 
@@ -33,7 +42,7 @@ function App() {
       <Routes>
           {/* <Route path="/" element={<Hero />} /> */}
           <Route path="/location" element={<BasicInfo />} />
-          <Route path="/menu" element={<Menu menuItems={menuItems}/>} />
+          <Route path="/menu" element={<Menu wines={wines} menuItems={menuItems}/>} />
           <Route path="/about" element={<ExtraInfo />} />
       </Routes>
      

@@ -194,6 +194,7 @@
 }
 
 #party{
+  font-size: 18px;
  position: absolute;
  top: 70px;
  left: 1500px;
@@ -215,6 +216,20 @@
     height: 150px;
     width: 600px;
     background-color: rgb(246, 250, 245);
+}
+
+#wine{
+  position: relative;
+  top: 500px;
+  left: 25px;
+  
+  float: left;
+  margin-left: 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: 150px;
+  width: 600px;
+  background-color: rgb(246, 250, 245);
 }
 
 #foodimg {

@@ -7,6 +7,7 @@ function ExtraInfo() {
 
     return (
         <div   id={location.pathname === "/about" ? "routeextrainfo" : "extrainfo"} >
+            <h3 id="abouttit">About</h3>
             <p id="about">Fresh is a farm to table restaurant bringing you pizzas made with only 
             the freshest and highest quality ingredients straight from the garden. We are a family 
             of farmers who have been perfecting our pizzas for the last 20 years. We grow all our 
@@ -16,6 +17,8 @@ function ExtraInfo() {
 
                 <img id="cheers" src="pizzacheer.jpg" alt="cheer"></img>
 
+
+                <h3 id="eventstit">Events</h3>
             <p id="party"> At fresh we love to host parties and events. 
             You can book special events or reserve a table at our restaurunt.
             Just contact us and we will set you up with anything that you need.

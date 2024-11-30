@@ -16,6 +16,8 @@ function Menu({menuItems, wines}) {
             <h1 id="menutitle">Menu</h1>
             {/* <p>This is all the food</p> */}
             {menuItems.map((item) => <Food key={item.id} item={item}></Food>)}
+
+            <h1 id="winetitle">Wine</h1>
             {wines.map((wine) => <Wine key={wine.id} wine={wine}></Wine>)}
         </div>
     )
